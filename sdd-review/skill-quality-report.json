@@ -1,0 +1,54 @@
+{
+  "description": "\u898f\u683c\u5be9\u67e5 (Spec-Driven Development review)\u3002\u5be9\u67e5\u4e00\u5957\u65e2\u6709\u7684\u898f\u683c\u9a45\u52d5\u6587\u4ef6 \uff08\u61b2\u7ae0 / \u898f\u683c spec / \u8a2d\u8a08 design / \u4efb\u52d9 tasks\uff09\uff0c\u9010\u689d\u6aa2\u67e5\u9a57\u6536\u6a19\u6e96 (AC) \u662f\u5426 \u5f9e\u898f\u683c \u2192 \u8a2d\u8a08 \u2192 \u4efb\u52d9 \u2192 \u5be6\u4f5c\u4e00\u8def\u53ef\u8ffd\u6eaf\uff0c\u627e\u51fa\u7f3a\u53e3\u3001\u672a\u586b\u7684 [\u65b9\u62ec\u865f] \u4f54\u4f4d\u3001\u675c\u64b0 \u4e8b\u5be6\u3001\u7bc4\u570d\u8513\u5ef6\u8207\u8a2d\u8a08\u9055\u53cd\u61b2\u7ae0\u4e4b\u8655\uff0c\u4e26\u7522\u51fa\u53ef\u8ffd\u6eaf\u77e9\u9663\u8207\u5be9\u67e5\u6e05\u55ae\u3002 Use when the user asks to \"\u5be9\u67e5\u6211\u7684\u898f\u683c\", \"\u505a\u898f\u683c\u5be9\u67e5\", \"\u6aa2\u67e5 spec/design/tasks\", \"\u9a57\u6536\u6a19\u6e96\u6709\u6c92\u6709\u5c0d\u9f4a\", \"AC \u6709\u6c92\u6709\u90fd\u5c0d\u61c9\u5230\u4efb\u52d9\", \"\u898f\u683c\u8ddf\u8a2d\u8a08\u6709\u6c92\u6709\u515c\u8d77\u4f86\", \"/sdd-review\", \"review my spec\", \"check AC coverage\", \"\u898f\u683c\u9a57\u6536\", or wants to verify an existing spec-driven document set before\u6216during \u5be6\u4f5c. Do NOT use for\uff1a\u4f48\u5efa/\u5efa\u7acb\u898f\u683c\u7bc4\u672c\u6216\u958b\u65b0\u529f\u80fd\uff08\u7528 sdd\uff09\u3001\u5be6\u969b\u7522\u51fa\u6587\u4ef6\u6a94 Word/PDF/PPT/Excel\uff08\u7528 docx/pdf/pptx/xlsx\uff09\u3001\u5efa\u7acb\u6216\u7ba1\u7406\u300c\u500b\u4eba\u6280\u80fd\u300d\u672c\u8eab\uff08\u7528 skills\uff09\u3001\u4e00\u822c\u7a0b\u5f0f\u78bc\u5be9\u67e5 (code review) \u800c\u975e\u898f\u683c\u5be9\u67e5\u3001\u6216\u5bc4\u9001 email / Teams \u8a0a\u606f\u3002",
+  "dimension_notes": {
+    "instruction_specificity": [
+      "22 workflow line(s)",
+      "no example block",
+      "names tools / data sources",
+      "specifies output format"
+    ],
+    "robustness": [
+      "has Guardrails section",
+      "8 guardrail-style rule(s)",
+      "handles missing-data / failure",
+      "has confirmation gate"
+    ],
+    "scope_boundaries": [
+      "has 'When NOT to Use' section",
+      "description states exclusions",
+      "focused single-domain scope"
+    ],
+    "trigger_clarity": [
+      "10 explicit trigger phrase(s)",
+      "has exclusion clause"
+    ]
+  },
+  "dimensions": {
+    "instruction_specificity": 23,
+    "robustness": 25,
+    "scope_boundaries": 23,
+    "trigger_clarity": 25
+  },
+  "faithfulness": {
+    "detail": "instructs grounding / no-fabrication",
+    "status": "PASS"
+  },
+  "grade": "Excellent",
+  "improvements": [],
+  "mvb_pass": true,
+  "mvb_threshold": 65,
+  "path": "/mnt/user-config/.claude/skills/sdd-review/SKILL.md",
+  "risk": {
+    "factors": [
+      "read-only / low blast radius"
+    ],
+    "launch_floor": 65,
+    "requires_behavioral": false,
+    "requires_human_review": false,
+    "tier": "low"
+  },
+  "safety": [],
+  "skill_name": "sdd-review",
+  "timestamp": "2026-06-26 08:36 UTC",
+  "total": 96
+}
