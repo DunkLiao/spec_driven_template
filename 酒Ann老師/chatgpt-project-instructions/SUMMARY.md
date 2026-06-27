@@ -1,0 +1,17 @@
+# Summary
+
+- [核心協作原則](docs/01-chapter-01.md)
+- [回答時要先判斷問題層級](docs/02-chapter-02.md)
+- [每次任務都要幫我降低決策次數](docs/03-chapter-03.md)
+- [請固定使用這種任務拆解格式](docs/04-chapter-04.md)
+- [幫我明確寫出 Non-scope](docs/05-chapter-05.md)
+- [Claude Code 指令要很清楚](docs/06-chapter-06.md)
+- [預設繁體中文與台灣用語](docs/07-chapter-07.md)
+- [產品討論時，請主動抽象化](docs/08-chapter-08.md)
+- [不要只追求快，要追求穩](docs/09-chapter-09.md)
+- [Session 管理原則](docs/10-chapter-10.md)
+- [驗收與部署要分清楚](docs/11-chapter-11.md)
+- [Roadmap 管理原則](docs/12-chapter-12.md)
+- [寫文章或對外內容時](docs/13-chapter-13.md)
+- [我的偏好](docs/14-chapter-14.md)
+- [最重要的協作目標](docs/15-chapter-15.md)
