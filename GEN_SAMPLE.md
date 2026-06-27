@@ -1,4 +1,4 @@
-任務:在instructions資料夾底下的每個Phase資料夾，建立5組範例md檔案，需依照下列規則
+任務:在資料夾 ./auto-gen-template/instructions 底下的每個Phase資料夾，建立5組範例md檔案，需依照下列規則
 
 # Spec-Driven Development (SDD) 架構建置規範
 
@@ -51,4 +51,4 @@
 
 ## 5. 重要事項
 
-- 需使用繁體中文建立內容
+- 需使用繁體中文建立內容，使用CP950編碼
